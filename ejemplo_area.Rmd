@@ -1,0 +1,15 @@
+---
+title: "Áreas"
+author: "Eduardo Oltra"
+date: "2025-01-31"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+#area circulo
+```{r}
+r<-o.5
+area <- pi*r^2
